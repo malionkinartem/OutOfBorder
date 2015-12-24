@@ -1,0 +1,10 @@
+{
+  "AppSettings": {
+    "SiteTitle": "OOB.Web"
+  },
+  "Data": {
+    "DefaultConnection": {
+      "ConnectionString": "Server=(localdb)\\mssqllocaldb;Database=aspnet5-OOB.Web-9ac547e8-0fe3-4d85-9270-f3cb858d43bc;Trusted_Connection=True;MultipleActiveResultSets=true"
+    }
+  }
+}
