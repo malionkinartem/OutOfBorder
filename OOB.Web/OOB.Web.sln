@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "OOB.Web", "src\OOB.Web\OOB.Web.xproj", "{26C6380A-E44E-4FF0-91CC-ACBA12080A6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOB.DataApi", "OOB.DataApi\OOB.DataApi.csproj", "{E4F56E46-AEB7-46F9-98FA-E6DA3A2A8172}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +24,10 @@ Global
 		{26C6380A-E44E-4FF0-91CC-ACBA12080A6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26C6380A-E44E-4FF0-91CC-ACBA12080A6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26C6380A-E44E-4FF0-91CC-ACBA12080A6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4F56E46-AEB7-46F9-98FA-E6DA3A2A8172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4F56E46-AEB7-46F9-98FA-E6DA3A2A8172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4F56E46-AEB7-46F9-98FA-E6DA3A2A8172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4F56E46-AEB7-46F9-98FA-E6DA3A2A8172}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
