@@ -1,0 +1,6 @@
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.ServiceApi\bin\OOB.ServiceApi.dll.config
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.ServiceApi\bin\OOB.ServiceApi.dll
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.ServiceApi\bin\OOB.ServiceApi.pdb
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.ServiceApi\obj\Debug\OOB.ServiceApi.csprojResolveAssemblyReference.cache
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.ServiceApi\obj\Debug\OOB.ServiceApi.dll
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.ServiceApi\obj\Debug\OOB.ServiceApi.pdb

@@ -1,0 +1,5 @@
+C:\Development\OOB\OutOfBorder\OOB.ServiceApi\OOB.ServiceApi.Logic\bin\Debug\OOB.DataApi.Logic.dll
+C:\Development\OOB\OutOfBorder\OOB.ServiceApi\OOB.ServiceApi.Logic\bin\Debug\OOB.DataApi.Logic.pdb
+C:\Development\OOB\OutOfBorder\OOB.ServiceApi\OOB.ServiceApi.Logic\obj\Debug\OOB.ServiceApi.Logic.csprojResolveAssemblyReference.cache
+C:\Development\OOB\OutOfBorder\OOB.ServiceApi\OOB.ServiceApi.Logic\obj\Debug\OOB.DataApi.Logic.dll
+C:\Development\OOB\OutOfBorder\OOB.ServiceApi\OOB.ServiceApi.Logic\obj\Debug\OOB.DataApi.Logic.pdb

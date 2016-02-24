@@ -1,0 +1,10 @@
+C:\Development\OOB\OutOfBorder\OOB.Web\OOB.RequestServices\bin\Debug\OOB.RequestServices.dll
+C:\Development\OOB\OutOfBorder\OOB.Web\OOB.RequestServices\bin\Debug\OOB.RequestServices.pdb
+C:\Development\OOB\OutOfBorder\OOB.Web\OOB.RequestServices\obj\Debug\OOB.RequestServices.csprojResolveAssemblyReference.cache
+C:\Development\OOB\OutOfBorder\OOB.Web\OOB.RequestServices\obj\Debug\OOB.RequestServices.dll
+C:\Development\OOB\OutOfBorder\OOB.Web\OOB.RequestServices\obj\Debug\OOB.RequestServices.pdb
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.RequestServices\bin\Debug\OOB.RequestServices.dll
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.RequestServices\bin\Debug\OOB.RequestServices.pdb
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.RequestServices\obj\Debug\OOB.RequestServices.csprojResolveAssemblyReference.cache
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.RequestServices\obj\Debug\OOB.RequestServices.dll
+C:\Development\OOB\OutOfBorder\OOB.Web\src\OOB.RequestServices\obj\Debug\OOB.RequestServices.pdb
