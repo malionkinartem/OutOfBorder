@@ -57,3 +57,18 @@ _ReSharper*/
 *.DotSettings.user
 *.suo
 .vs/
+
+#ignore thumbnails created by windows
+Thumbs.db
+#Ignore files build by Visual Studio
+*.exe
+*.aps
+*.ncb
+*.bak
+*.cache
+[Bb]in
+[Dd]ebug*/
+*.lib
+obj/
+[Rr]elease*/
+[Tt]est[Rr]esult*
