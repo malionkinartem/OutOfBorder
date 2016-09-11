@@ -8,7 +8,6 @@ namespace OOB.ServiceApi.UserServices
     {
         public string GetData(int value)
         {
-            throw new Exception("test exc");
             return string.Format("You entered: {0}", value);
         }
 
