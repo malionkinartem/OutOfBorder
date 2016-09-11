@@ -56,7 +56,7 @@ _ReSharper*/
 *.[Rr]e[Ss]harper
 *.DotSettings.user
 *.suo
-.vs/
+OOB.Web/.vs/
 
 #ignore thumbnails created by windows
 Thumbs.db
@@ -72,3 +72,5 @@ Thumbs.db
 obj/
 [Rr]elease*/
 [Tt]est[Rr]esult*
+
+OOB.ServiceApi/OOB.ServiceApi/logs/
