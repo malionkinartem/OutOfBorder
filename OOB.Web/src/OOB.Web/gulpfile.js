@@ -5,6 +5,7 @@ var gulp = require("gulp"),
     concat = require("gulp-concat"),
     cssmin = require("gulp-cssmin"),
     uglify = require("gulp-uglify"),
+    bower = require("gulp-bower"),
     project = require("./project.json");
 
 var paths = {
@@ -43,3 +44,8 @@ gulp.task("min:css", function () {
 });
 
 gulp.task("min", ["min:js", "min:css"]);
+
+gulp.task("bower-update",
+    function() {
+        return bower({ cmd: 'update' });
+    });
