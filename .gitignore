@@ -75,3 +75,6 @@ obj/
 OOB.ServiceApi/OOB.ServiceApi/logs/
 OOB.Web/packages/
 OOB.Web/.vs/
+OOB.Web/src/bower_components/
+OOB.Web/src/OOB.Web/node_modules/
+OOB.Web/src/OOB.Web/wwwroot/lib/
