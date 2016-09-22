@@ -82,7 +82,7 @@ namespace OOB.Web
                 app.UseErrorHandler("/Home/Error");
             }
 
-            // Add static files to the request pipeline.
+            app.UseDefaultFiles();
             app.UseStaticFiles();
 
             // Add cookie-based authentication to the request pipeline.
