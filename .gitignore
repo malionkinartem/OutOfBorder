@@ -79,3 +79,4 @@ OOB.Web/src/bower_components/*
 OOB.Web/src/OOB.Web/node_modules/*
 OOB.Web/src/OOB.Web/wwwroot/
 lib/
+OOB.Web/src/OOB.Web/typings/
