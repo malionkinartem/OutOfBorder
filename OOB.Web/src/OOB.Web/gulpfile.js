@@ -1,51 +1,45 @@
-﻿/// <binding Clean='clean' />
+﻿var ts = require('gulp-typescript');
+var gulp = require('gulp');
+var clean = require('gulp-clean');
 
-var gulp = require("gulp"),
-    rimraf = require("rimraf"),
-    concat = require("gulp-concat"),
-    cssmin = require("gulp-cssmin"),
-    uglify = require("gulp-uglify"),
-    bower = require("gulp-bower"),
-    project = require("./project.json");
+var destPath = './wwwroot/libs/';
 
-var paths = {
-    webroot: "./" + project.webroot + "/"
-};
-
-paths.js = paths.webroot + "js/**/*.js";
-paths.minJs = paths.webroot + "js/**/*.min.js";
-paths.css = paths.webroot + "css/**/*.css";
-paths.minCss = paths.webroot + "css/**/*.min.css";
-paths.concatJsDest = paths.webroot + "js/site.min.js";
-paths.concatCssDest = paths.webroot + "css/site.min.css";
-
-gulp.task("clean:js", function (cb) {
-    rimraf(paths.concatJsDest, cb);
+// Delete the dist directory
+gulp.task('clean', function () {
+    return gulp.src(destPath)
+        .pipe(clean());
 });
 
-gulp.task("clean:css", function (cb) {
-    rimraf(paths.concatCssDest, cb);
+gulp.task("scriptsNStyles", () => {
+    gulp.src([
+            'core-js/client/**',
+            'systemjs/dist/system.src.js',
+            'reflect-metadata/**',
+            'rxjs/**',
+            'zone.js/dist/**',
+            '@angular/**',
+            'jquery/dist/jquery.*js',
+            'bootstrap/dist/js/bootstrap.*js',
+    ], {
+        cwd: "node_modules/**"
+    })
+        .pipe(gulp.dest("./wwwroot/libs"));
 });
 
-gulp.task("clean", ["clean:js", "clean:css"]);
-
-gulp.task("min:js", function () {
-    gulp.src([paths.js, "!" + paths.minJs], { base: "." })
-        .pipe(concat(paths.concatJsDest))
-        .pipe(uglify())
-        .pipe(gulp.dest("."));
+var tsProject = ts.createProject('tsconfig.json');
+gulp.task('ts', function (done) {
+    //var tsResult = tsProject.src()
+    var tsResult = gulp.src([
+            "Scripts/*.ts"
+    ])
+        .pipe(ts(tsProject), undefined, ts.reporter.fullReporter());
+    return tsResult.js.pipe(gulp.dest('./wwwroot/appScripts'));
 });
 
-gulp.task("min:css", function () {
-    gulp.src([paths.css, "!" + paths.minCss])
-        .pipe(concat(paths.concatCssDest))
-        .pipe(cssmin())
-        .pipe(gulp.dest("."));
+gulp.task('watch', ['watch.ts']);
+
+gulp.task('watch.ts', ['ts'], function () {
+    return gulp.watch('scripts/*.ts', ['ts']);
 });
 
-gulp.task("min", ["min:js", "min:css"]);
-
-gulp.task("bower-update",
-    function() {
-        return bower({ cmd: 'update' });
-    });
+gulp.task('default', ['scriptsNStyles', 'watch']);
